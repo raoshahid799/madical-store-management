@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E96789B-D893-473F-8190-5A9E7BF5EC2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>medical_Store</RootNamespace>
+    <AssemblyName>medical Store</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCompany.Designer.cs">
+      <DependentUpon>addCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMedicine.Designer.cs">
+      <DependentUpon>addMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="companyNameReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>companyNameReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Copy of viewStockReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="damageStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="damageStock.Designer.cs">
+      <DependentUpon>damageStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="damageStockDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>damageStockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="expireStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="expireStock.Designer.cs">
+      <DependentUpon>expireStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="invoideStoreDataSet.cs">
+      <DependentUpon>invoideStoreDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="invoideStoreDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>invoideStoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lowStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lowStock.Designer.cs">
+      <DependentUpon>lowStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lowStockReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lowStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="medicalStoreDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicineTypeReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicineTypeReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="printSaleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printSaleForm.Designer.cs">
+      <DependentUpon>printSaleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sale.Designer.cs">
+      <DependentUpon>sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stockDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="stockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockEntry.Designer.cs">
+      <DependentUpon>stockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateMedicine.Designer.cs">
+      <DependentUpon>updateMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateSale.Designer.cs">
+      <DependentUpon>updateSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateStockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateStockEntry.Designer.cs">
+      <DependentUpon>updateStockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewAccount.Designer.cs">
+      <DependentUpon>viewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewDamageReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>viewDamageReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="viewDamageStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewDamageStock.Designer.cs">
+      <DependentUpon>viewDamageStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewExpireReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>viewExpireReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="viewExpireStockReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>viewExpireStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="viewMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewMedicine.Designer.cs">
+      <DependentUpon>viewMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addMedicinetype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMedicinetype.Designer.cs">
+      <DependentUpon>addMedicinetype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="medicalStoreDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>medicalStoreDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewMedicineReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>viewMedicineReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="viewMedicineType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewMedicineType.Designer.cs">
+      <DependentUpon>viewMedicineType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="viewCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewCompany.Designer.cs">
+      <DependentUpon>viewCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewSale.Designer.cs">
+      <DependentUpon>viewSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewSaleReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>viewSaleReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="viewStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewStock.Designer.cs">
+      <DependentUpon>viewStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewStockReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>viewStockReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addCompany.resx">
+      <DependentUpon>addCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addMedicine.resx">
+      <DependentUpon>addMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="companyNameReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>companyNameReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="damageStock.resx">
+      <DependentUpon>damageStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="expireStock.resx">
+      <DependentUpon>expireStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lowStock.resx">
+      <DependentUpon>lowStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lowStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lowStockReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medicineTypeReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>medicineTypeReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printSaleForm.resx">
+      <DependentUpon>printSaleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sale.resx">
+      <DependentUpon>sale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockEntry.resx">
+      <DependentUpon>stockEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateMedicine.resx">
+      <DependentUpon>updateMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateSale.resx">
+      <DependentUpon>updateSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateStockEntry.resx">
+      <DependentUpon>updateStockEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewAccount.resx">
+      <DependentUpon>viewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewDamageReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>viewDamageReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewDamageStock.resx">
+      <DependentUpon>viewDamageStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewExpireReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>viewExpireReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewExpireStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>viewExpireStockReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewMedicine.resx">
+      <DependentUpon>viewMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addMedicinetype.resx">
+      <DependentUpon>addMedicinetype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewMedicineReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>viewMedicineReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewMedicineType.resx">
+      <DependentUpon>viewMedicineType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="viewCompany.resx">
+      <DependentUpon>viewCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewSale.resx">
+      <DependentUpon>viewSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewSaleReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>viewSaleReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewStock.resx">
+      <DependentUpon>viewStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewStockReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>viewStockReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="damageStockDataSet.xsc">
+      <DependentUpon>damageStockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="damageStockDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>damageStockDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="damageStockDataSet.xss">
+      <DependentUpon>damageStockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="invoideStoreDataSet.xsc">
+      <DependentUpon>invoideStoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="invoideStoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>invoideStoreDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="invoideStoreDataSet.xss">
+      <DependentUpon>invoideStoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet.xsc">
+      <DependentUpon>medicalStoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet.xss">
+      <DependentUpon>medicalStoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet1.xsc">
+      <DependentUpon>medicalStoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet1.xss">
+      <DependentUpon>medicalStoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet2.xsc">
+      <DependentUpon>medicalStoreDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet2.xss">
+      <DependentUpon>medicalStoreDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet3.xsc">
+      <DependentUpon>medicalStoreDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet3.xss">
+      <DependentUpon>medicalStoreDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet4.xsc">
+      <DependentUpon>medicalStoreDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet4.xss">
+      <DependentUpon>medicalStoreDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet5.xsc">
+      <DependentUpon>medicalStoreDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet5.xss">
+      <DependentUpon>medicalStoreDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet6.xsc">
+      <DependentUpon>medicalStoreDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet6.xss">
+      <DependentUpon>medicalStoreDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet7.xsc">
+      <DependentUpon>medicalStoreDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet7.xss">
+      <DependentUpon>medicalStoreDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet8.xsc">
+      <DependentUpon>medicalStoreDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="medicalStoreDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>medicalStoreDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="medicalStoreDataSet8.xss">
+      <DependentUpon>medicalStoreDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="stockDataSet.xsc">
+      <DependentUpon>stockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="stockDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>stockDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="stockDataSet.xss">
+      <DependentUpon>stockDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

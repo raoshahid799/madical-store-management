@@ -1,0 +1,58 @@
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\bin\Debug\medical Store.exe.config
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\bin\Debug\medical Store.exe
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\bin\Debug\medical Store.pdb
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.addCompany.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.addMedicine.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.damageStock.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.expireStock.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.loginForm.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.lowStock.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.printSaleForm.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.sale.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.stockEntry.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.updateMedicine.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.updateSale.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.updateStockEntry.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewAccount.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewDamageStock.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewMedicine.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.addMedicinetype.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.menu.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewMedicineType.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.Properties.Resources.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewCompany.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewSale.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewStock.resources
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.csproj.GenerateResource.Cache
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.exe
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.pdb
+C:\Users\Rao Shahid\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.csprojResolveAssemblyReference.cache
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\bin\Debug\medical Store.exe.config
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.exe
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.pdb
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\bin\Debug\medical Store.exe
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\bin\Debug\medical Store.pdb
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.addCompany.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.addMedicine.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.damageStock.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.expireStock.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.loginForm.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.lowStock.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.printSaleForm.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.sale.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.stockEntry.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.updateMedicine.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.updateSale.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.updateStockEntry.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewAccount.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewDamageStock.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewMedicine.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.addMedicinetype.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.menu.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewMedicineType.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.Properties.Resources.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewCompany.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewSale.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.viewStock.resources
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical Store.csproj.GenerateResource.Cache
+C:\Users\raosh\Dropbox\Data\sobia islam\medical Store\medical Store\obj\Debug\medical_Store.AboutBox1.resources
